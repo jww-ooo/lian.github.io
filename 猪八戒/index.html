@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>猪八戒网站</title>
+		<link rel="icon" href="img/头像.png" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="css/猪八戒.css" />
+		<script src="js/猪八戒js.js" type="text/javascript" charset="utf-8"></script>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	</head>
+	<body style="overflow-x:hidden;">
+		<!-- 头部 -->
+		<header>
+			<a href="#"><img src="./img/顶部图片.png" width="100%"></a>
+			<div class="headerTop">
+				<div>
+					<a href="">河南<span>[切换城市]</span></a>
+					<ul>
+						<li><a href="#">请登录</a></li>
+						<li><a href="#" style="color: #FF5C00;">注册有好礼</a></li>
+						<li class="yiji">
+							<a href="#">我的猪八戒<span>ⅴ</span></a>
+							<ul class="erji">
+								<li><a href="">我的订单</a></li>
+								<li><a href="">我的足迹</a></li>
+								<li><a href="">我的收藏</a></li>
+								<li><a href="">服务百科</a></li>
+								<li><a href="">俱乐部</a></li>
+							</ul>
+						</li>
+						<li><a href="#" style="color: #FF5C00;">商家入驻</a></li>
+						<li class="yiji">
+							<a href="#">客服中心<span>ⅴ</span></a>
+							<ul class="erji">
+								<li><a href="">规则中心</a></li>
+								<li><a href="">八戒110</a></li>
+								<li><a href="">交易调解</a></li>
+								<li><a href="">帮助中心</a></li>
+								<li><a href="">人工服务</a></li>
+							</ul>
+						</li>
+						<li><a href="#">网站导航</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="xiding" class="headerMain">
+				<div class="topFixing">
+					<a href="#"><img src="img/猪八戒logo.png" width="10%"></a>
+					<div>
+						<form action="" method="post">
+							<input type="text"/ placeholder="请输入关键字......">
+							<input type="button" value="搜索" />
+						</form>
+						<div class="headerButton">
+							<button type="button" style="background-color: #ff5c00">免费发布需求</button>
+							<span style="margin: 0 5px;">或</span>
+							<button type="button" style="background-color: #ffba00">免费官方推荐</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="zhanwei" style="height: 150px;position: relative;top: 90px;display: none;"></div>
+			<!-- 返回顶部 -->
+			<a id="scrollup" href="#top" style="position:fixed;z-index: 999;display: none;">^</a>
+			
+			<nav>
+				<div class="mainList">
+					<ul class="mainListUl">
+						<li style="width: 80px;color: #FFFFFF;background-color: #FF5C00;"><a href="" style="color: #FFFFFF;">首页</a></li>
+						<li class="nHF">
+							<a href="">交易中心<span>∨</span></a>
+							<ul class="nHS" style="border: 1px solid #FF5C00;">
+								<a href="">交易中心<span>∧</span></a>
+								<li><a href="">招标大厅</a></li>
+								<li><a href="">比稿大厅</a></li>
+								<li><a href="">计件大厅</a></li>
+								<li><a href="">八戒大赛</a></li>
+							</ul>
+						</li>
+						<li class="nHF1">
+							<a href="">八戒严选<span>∨</span></a>
+							<a href="" class="nHS2" style="border: 1px solid #FF5C00;border-bottom: none;">八戒严选<span>∧</span></a>
+							<ul class="nHS1" style="border: 1px solid #FF5C00;">
+
+								<li><a href="">品牌教育</a></li>
+								<li><a href="">营销策划</a></li>
+								<li><a href="">开发建站</a></li>
+								<li><a href="">美工包月</a></li>
+								<li><a href="">客服包月</a></li>
+								<li><a href="">IT驻场</a></li>
+							</ul>
+						</li>
+						<li class="nHF1">
+							<a href="">产业服务<span>∨</span></a>
+							<a href="" class="nHS2" style="border: 1px solid #FF5C00;border-bottom: none;">产业服务<span>∧</span></a>
+							<ul class="nHS1" style="border: 1px solid #FF5C00;">
+
+								<li><a href="">数字农业</a></li>
+								<li><a href="">游戏产业</a></li>
+								<li><a href="">眼镜产业</a></li>
+								<li><a href="">旅游产业</a></li>
+								<li><a href="">电商产业</a></li>
+								<li><a href="">陶瓷产业</a></li>
+							</ul>
+						</li>
+						<li><a href="">案例库</a></li>
+					</ul>
+					<ol class="mainListOl">
+						<li><a href="">找办公场地</a></li>
+						<li><a href="">八戒企业版</a></li>
+						<li><a href="">政府采购</a></li>
+						<li class="nHF">
+							<a href="">国际服务<span>∨</span></a>
+							<ul class="nHS" style="border: 1px solid #FF5C00;">
+								<a href="">国际服务<span>∧</span></a>
+								<li style="font-size: 13px;"><a href="">国际商标注册</a></li>
+								<li style="font-size: 13px;"><a href="">国际商标买卖</a></li>
+								<li style="font-size: 13px;"><a href="">海外公司注册</a></li>
+								<li style="font-size: 13px;"><a href="">境外银行开户</a></li>
+								<li style="font-size: 13px;"><a href="">美国FDA认证</a></li>
+							</ul>
+						</li>
+						<li><a href="">八戒金融</a></li>
+						<li><a href="">新人专区</a></li>
+					</ol>
+				</div>
+			</nav>
+		</header>
+		<!-- 列表 -->
+
+		<!-- 内容 -->
+		<main>
+			<img src="img/main背景.png" width="2000px" style="position: absolute;left: -240px;top: 293px;	margin: 0 auto; z-index: -111;">
+			<div class="bgd">
+				<span class="bgdTopText">
+					<h2>全部服务</h2>企业全生命周期服务 助力企业降本增效
+				</span>
+				<div class="bgdAll">
+					<div class="bgdLeft">
+						<div class="bgdLeftOne">
+							<ul>
+								<li>
+									<a href="">
+										<img src="img/top1.jpg" width="45%">
+										<h4>品牌设计</h4>
+										<span>LOGO</span>/<span>海报</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/top2.jpg" width="45%">
+										<h4>营销推广</h4>
+										<span>网站营销</span>/<span>文案策划</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/top3.jpg" width="45%">
+										<h4>IT/软件</h4>
+										<span>小程序</span>/<span>网站建设</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/top4.jpg" width="45%">
+										<h4>知识产权</h4>
+										<span>商标</span>/<span>专利</span>/<span>版权</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/top5.jpg" width="45%">
+										<h4>工商财税</h4>
+										<span>注册</span>/<span>代账</span>/<span>办资质</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/top6.jpg" width="45%">
+										<h4>资金扶持</h4>
+										<span>高企</span>/<span>软著</span>/<span>ISO</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="bgdLeftTwo">
+							<a href=""><img src="img/leftTwo1.jpg" height="70px" style="float: left;"></a>
+							<a href=""><img src="img/leftTwo2.jpg" height="70px"></a>
+							<a href=""><img src="img/leftTwo3.jpg" height="70px" style="float: right;margin-right: -10px;"></a>
+						</div>
+						<div class="bgdLeftMain">
+							<div class="leftMain">
+								<div class="leftMainLeft">
+									<div class="leftMainTop">
+										<a href="">
+											<h2>知识产权</h2>
+										</a>
+										<a href=""><span>查logo能否注册商标</span></a>
+									</div>
+									<div class="leftMainFoot">
+										<a href=""><span>商标免费查询</span></a> <a href="">商标担保注册</a> <a href="">商标注册</a> <a href="">专利查询</a>
+										<a href=""><span>商标查询</span></a> <a href="">商标担保注册</a> <a href="">商标免费注册</a> <a href="">专利查询</a>
+										<a href=""><span>商标查询</span></a> <a href=""></a> <a href="">商标注册</a> <a href="">专利查询</a>
+										<a href="">专利购买</a> <a href="">企业补贴</a>
+									</div>
+								</div>
+
+								<div class="leftMainLeft">
+									<div class="leftMainTop">
+										<a href="">
+											<h2>知识产权</h2>
+										</a>
+										<a href=""><span>查logo能否注册商标</span></a>
+									</div>
+									<div class="leftMainFoot">
+										<a href=""><span>商标免费查询</span></a> <a href="">商标担保注册</a> <a href="">商标注册</a> <a href="">专利查询</a>
+										<a href=""><span>商标查询</span></a> <a href="">商标担保注册</a> <a href="">商标免费注册</a> <a href="">专利查询</a>
+										<a href=""><span>商标查询</span></a> <a href=""></a> <a href="">商标注册</a>
+									</div>
+								</div>
+
+								<div class="leftMainLeft">
+									<div class="leftMainTop">
+										<a href="">
+											<h2>知识产权</h2>
+										</a>
+										<a href=""><span>查logo能否注册商标</span></a>
+									</div>
+									<div class="leftMainFoot">
+										<a href=""><span>商标免费查询</span></a> <a href="">商标担保注册</a> <a href="">商标注册</a> <a href="">专利查询</a>
+										<a href=""><span>商标查询</span></a> <a href="">商标担保注册</a> <a href="">商标免费注册</a> <a href="">专利查询</a>
+										<a href=""><span>商标查询</span></a>
+									</div>
+								</div>
+
+								<div class="leftMainLeft">
+									<div class="leftMainTop">
+										<a href="">
+											<h2>知识产权</h2>
+										</a>
+										<a href=""><span>查logo能否注册商标</span></a>
+									</div>
+									<div class="leftMainFoot">
+										<a href=""><span>商标免费查询</span></a> <a href="">商标担保注册</a> <a href="">商标注册</a> <a href="">专利查询</a>
+										<a href=""><span>商标查询</span></a> <a href="">商标担保注册</a> <a href="">商标免费注册</a> <a href="">专利查询</a>
+										<a href=""><span>商标查询</span></a>
+									</div>
+								</div>
+
+								<div class="leftMainLeft">
+									<div class="leftMainTop">
+										<a href="">
+											<h2>知识产权</h2>
+										</a>
+										<a href=""><span>查logo能否注册商标</span></a>
+									</div>
+									<div class="leftMainFoot">
+										<a href=""><span>商标免费查询</span></a> <a href="">商标担保注册</a> <a href="">商标注册</a> <a href="">专利查询</a>
+										<a href=""><span>商标查询</span></a> <a href="">商标担保注册</a> <a href="">商标免费注册</a> <a href="">专利查询</a>
+										<a href=""><span>商标查询</span></a> <a href=""></a> <a href="">商标注册</a> <a href="">专利查询</a>
+										<a href="">专利购买</a> <a href="">企业补贴</a>
+									</div>
+								</div>
+
+								<div class="leftMainLeft">
+									<div class="leftMainTop">
+										<a href="">
+											<h2>知识产权</h2>
+										</a>
+										<a href=""><span>查logo能否注册商标</span></a>
+									</div>
+									<div class="leftMainFoot">
+										<a href=""><span>商标免费查询</span></a> <a href="">商标担保注册</a> <a href="">商标注册</a> <a href="">专利查询</a>
+										<a href=""><span>商标查询</span></a> <a href="">商标担保注册</a> <a href="">商标免费注册</a> <a href="">专利查询</a>
+										<a href=""><span>商标查询</span></a> <a href=""></a> <a href="">商标注册</a> <a href="">专利查询</a>
+										<a href="">专利购买</a> <a href="">企业补贴</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="bgdCentralMain">
+							<div class="centralMain">
+								<div class="centMainCent">
+									<div class="leftMainTop">
+										<a href="">
+											<h2>知识产权</h2>
+										</a>
+										<a href=""><span>查logo能否注册商标</span></a>
+									</div>
+									<div class="centMainFoot">
+										<dl>
+											<dt><a href="">LOGO设计</a></dt>
+											<dd>
+												<a href=""><span>商标免费查询</span></a> <a href="">商标担保注册</a> <a href="">商标注册</a> <a href="">专利查询</a>
+												<a href=""><span>商标查询</span></a> <a href="">商标担保注册</a> <a href="">商标免费注册</a> <a href="">专利查询</a>
+											</dd>
+
+											<dt><a href="">VI设计</a></dt>
+											<dd>
+												<a href=""><span>商标免费查询</span></a> <a href="">商标担保注册</a> <a href="">商标注册</a> <a href="">专利查询</a>
+												<a href=""><span>商标查询</span></a>
+											</dd>
+
+											<dt><a href="">宣传品设计</a></dt>
+											<dd>
+												<a href=""><span>商标免费查询</span></a> <a href="">商标担保注册</a> <a href="">商标注册</a> <a href="">专利查询</a>
+												<a href=""><span>商标查询</span></a> <a href="">商标担保注册</a> <a href="">商标免费注册</a> <a href="">专利查询</a>
+											</dd>
+
+											<dt><a href="">包装设计</a></dt>
+											<dd>
+												<a href=""><span>商标免费查询</span></a> <a href="">商标担保注册</a> <a href="">商标注册</a> <a href="">专利查询</a>
+												<a href=""><span>商标查询</span></a> <a href="">专利查询</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+
+								<div class="centMainCent">
+									<div class="leftMainTop">
+										<a href="">
+											<h2>知识产权</h2>
+										</a>
+										<a href=""><span>查logo能否注册商标</span></a>
+									</div>
+									<div class="centMainFoot">
+										<dl>
+											<dt><a href="">LOGO设计</a></dt>
+											<dd>
+												<a href=""><span>商标免费查询</span></a> <a href="">商标担保注册</a> <a href="">商标注册</a> <a href="">专利查询</a>
+												<a href=""><span>商标查询</span></a> <a href="">商标担保注册</a> <a href="">商标免费注册</a> <a href="">专利查询</a>
+											</dd>
+
+											<dt><a href="">VI设计</a></dt>
+											<dd>
+												<a href=""><span>商标免费查询</span></a> <a href="">商标担保注册</a> <a href="">商标注册</a> <a href="">专利查询</a>
+												<a href=""><span>商标查询</span></a>
+											</dd>
+
+											<dt><a href="">宣传品设计</a></dt>
+											<dd>
+												<a href=""><span>商标免费查询</span></a> <a href="">商标担保注册</a> <a href="">商标注册</a> <a href="">专利查询</a>
+												<a href=""><span>商标查询</span></a> <a href="">商标担保注册</a> <a href="">商标免费注册</a> <a href="">专利查询</a>
+											</dd>
+
+											<dt><a href="">广告设计</a></dt>
+											<dd>
+												<a href=""><span>商标免费查询</span></a> <a href="">商标担保注册</a> <a href="">商标注册</a> <a href="">专利查询</a>
+												<a href=""><span>商标查询</span></a>
+											</dd>
+
+
+										</dl>
+									</div>
+								</div>
+
+								<div class="centralMain">
+									<div class="centMainCent">
+										<div class="leftMainTop">
+											<a href="">
+												<h2>知识产权</h2>
+											</a>
+											<a href=""><span>查logo能否注册商标</span></a>
+										</div>
+										<div class="centMainFoot">
+											<dl>
+												<dt><a href="">LOGO设计</a></dt>
+												<dd>
+													<a href=""><span>商标免费查询</span></a> <a href="">商标担保注册</a> <a href="">商标注册</a> <a href="">专利查询</a>
+													<a href=""><span>商标查询</span></a> <a href="">商标担保注册</a> <a href="">商标免费注册</a> <a href="">专利查询</a>
+												</dd>
+
+												<dt><a href="">VI设计</a></dt>
+												<dd>
+													<a href=""><span>商标免费查询</span></a> <a href="">商标担保注册</a> <a href="">商标注册</a> <a href="">专利查询</a>
+													<a href=""><span>商标查询</span></a> <a href="">商标担保注册</a> <a href="">商标免费注册</a> <a href="">专利查询</a>
+													<a href=""><span>商标查询</span></a> <a href="">商标担保注册</a>
+												</dd>
+											</dl>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="bgdRightMain">
+							<div class="rightMain">
+								<div class="centMainCent">
+									<div class="leftMainTop">
+										<a href="">
+											<h2>知识产权</h2>
+										</a>
+										<a href=""><span>查logo能否注册商标</span></a>
+									</div>
+									<div class="centMainFoot">
+										<dl>
+											<dt><a href="">LOGO设计</a></dt>
+											<dd>
+												<a href=""><span>商标免费查询</span></a> <a href="">商标担保注册</a> <a href="">商标注册</a> <a href="">专利查询</a>
+												<a href=""><span>商标查询</span></a> <a href="">商标担保注册</a> <a href="">商标免费注册</a> <a href="">专利查询</a>
+											</dd>
+
+											<dt><a href="">VI设计</a></dt>
+											<dd>
+												<a href=""><span>商标免费查询</span></a> <a href="">商标担保注册</a> <a href="">商标注册</a> <a href="">专利查询</a>
+												<a href=""><span>商标查询</span></a> <a href="">商标担保注册</a> <a href="">商标免费注册</a> <a href="">专利查询</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+
+								<div class="centMainCent">
+									<div class="leftMainTop">
+										<a href="">
+											<h2>知识产权</h2>
+										</a>
+										<a href=""><span>查logo能否注册商标</span></a>
+									</div>
+									<div class="centMainFoot">
+										<dl>
+											<dt><a href="">LOGO设计</a></dt>
+											<dd>
+												<a href=""><span>商标免费查询</span></a> <a href="">商标担保注册</a> <a href="">商标注册</a> <a href="">专利查询</a>
+												<a href=""><span>商标查询</span></a> <a href="">商标担保注册</a> <a href="">商标免费注册</a> <a href="">专利查询</a>
+											</dd>
+
+											<dt><a href="">VI设计</a></dt>
+											<dd>
+												<a href=""><span>商标免费查询</span></a> <a href="">商标担保注册</a> <a href="">商标注册</a> <a href="">专利查询</a>
+												<a href=""><span>商标查询</span></a> <a href="">商标担保注册</a> <a href="">商标免费注册</a> <a href="">专利查询</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+
+								<div class="centMainCent">
+									<div class="leftMainTop">
+										<a href="">
+											<h2>知识产权</h2>
+										</a>
+										<a href=""><span>查logo能否注册商标</span></a>
+									</div>
+									<div class="centMainFoot">
+										<dl>
+											<dt><a href="">LOGO设计</a></dt>
+											<dd>
+												<a href=""><span>商标免费查询</span></a> <a href="">商标担保注册</a> <a href="">商标注册</a> <a href="">专利查询</a>
+												<a href=""><span>商标查询</span></a> <a href="">商标担保注册</a> <a href="">商标免费注册</a> <a href="">专利查询</a>
+											</dd>
+
+											<dt><a href="">VI设计</a></dt>
+											<dd>
+												<a href=""><span>商标免费查询</span></a> <a href="">商标担保注册</a> <a href="">商标注册</a> <a href="">专利查询</a>
+												<a href=""><span>商标查询</span></a> <a href="">商标担保注册</a>
+											</dd>
+
+											<dt><a href="">VI设计</a></dt>
+											<dd>
+												<a href=""><span>商标免费查询</span></a> <a href="">商标担保注册</a> <a href="">商标注册</a> <a href="">专利查询</a>
+												<a href=""><span>商标查询</span></a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+
+								<div class="centMainCent">
+									<div class="leftMainTop">
+										<a href="">
+											<h2>知识产权</h2>
+										</a>
+										<a href=""><span>查logo能否注册商标</span></a>
+									</div>
+									<div class="centMainFoot">
+										<dl>
+											<dt><a href="">LOGO设计</a></dt>
+											<dd>
+												<a href=""><span>商标免费查询</span></a> <a href="">商标担保注册</a> <a href="">商标注册</a> <a href="">专利查询</a>
+												<a href=""><span>商标查询</span></a> <a href="">商标免费注册</a> <a href="">专利查询</a>
+											</dd>
+
+											<dt><a href="">VI设计</a></dt>
+											<dd>
+												<a href=""><span>商标免费查询</span></a> <a href="">商标担保注册</a> <a href="">商标注册</a> <a href="">专利查询</a>
+												<a href=""><a href="">专利查询</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="bgdRight">
+						<div class="bgdRightOne">
+							<div>
+								<a href=""><img src="img/小猪.png"></a>
+								<div>
+									<a href="">
+										<h3>hi,欢迎来到猪八戒！</h3>
+									</a>
+									<a href="">
+										<p>百亿补贴 一键领取☑</p>
+									</a>
+								</div>
+							</div>
+							<div class="bgdRightOneBtn">
+								<button>登录</button>
+								<button>注册</button>
+								<button>开店</button>
+							</div>
+							<div class="bgdRightOne-fot">
+								<marquee scrolldelay="" behavior="scroll" direction="left" width="100%">
+									<img src="img/滚动1.png" height="100px">
+								</marquee>
+							</div>
+						</div>
+						<div class="bgdRightTwo" id="bgdRightTwo">
+							<div class="title">
+								<span></span><img src="img/八戒严选.png" width="100px">
+							</div>
+							<div class="bRTMain">
+								<a href="">
+									<div class="evenNumber">
+										<div class="bRTText">
+											<h4>电商严选</h4>
+											<p>3天免费试用</p>
+										</div>
+										<img src="img/右-1.jpg" width="100%">
+									</div>
+								</a>
+								<a href="">
+									<div class="evenNumber">
+										<div class="bRTText">
+											<h4>LOGO设计</h4>
+											<p>量身定制的服务</p>
+										</div>
+										<img src="img/右-2.jpg" width="100%">
+									</div>
+								</a>
+								<a href="">
+									<div class="oddNumber">
+										<div class="bRTText">
+											<h4>IT工程师</h4>
+											<p>按工时计费，随时可暂停</p>
+										</div>
+										<img src="img/右-3.jpg" width="100%">
+									</div>
+								</a>
+
+								<a href="">
+									<div class="evenNumber">
+										<div class="bRTText">
+											<h4>小程序开发</h4>
+											<p>抢占千亿流量红利</p>
+										</div>
+										<img src="img/右-4.jpg" width="100%">
+									</div>
+								</a>
+								<a href="">
+									<div class="evenNumber">
+										<div class="bRTText">
+											<h4>网站建设</h4>
+											<p>打造线上获客渠道</p>
+										</div>
+										<img src="img/右-5.jpg" width="100%">
+									</div>
+								</a>
+								<a href="">
+									<div class="oddNumber">
+										<div class="bRTText">
+											<h4>按天服务，合作更灵活</h4>
+											<p>设计/客服/IT开发</p>
+										</div>
+										<img src="img/右-6.jpg" width="100%">
+									</div>
+								</a>
+
+								<a href="">
+									<div class="evenNumber">
+										<div class="bRTText">
+											<h4>电商代运营</h4>
+											<p>按效果付费</p>
+										</div>
+										<img src="img/右-7.jpg" width="100%">
+									</div>
+								</a>
+								<a href="">
+									<div class="evenNumber">
+										<div class="bRTText">
+											<h4>APP开发</h4>
+											<p>按需定制APP</p>
+										</div>
+										<img src="img/右-8.jpg" width="100%">
+									</div>
+								</a>
+								<a href="">
+									<div class="oddNumber">
+										<div class="bRTText">
+											<h4>严选合伙人招募</h4>
+											<p>定向扶持 持续躺赢</p>
+										</div>
+										<img src="img/右-9.jpg" width="100%">
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bgdAllTwo">
+					<div class="bgdAllTwoLeft">
+						<a>
+							<h2>今日推荐</h2>
+						</a>
+						<div id="lunBo">
+							<div id="main">
+								<div id="banner">
+									<div class="banner-slide slide1 slide-active">
+										<img src="img/01.jpg" width="510px">
+									</div>
+
+									<div class="banner-slide slide1 slide-active">
+										<img src="img/02.jpg" width="510px">
+									</div>
+
+									<div class="banner-slide slide1 slide-active">
+										<img src="img/03.jpg" width="510px">
+									</div>
+
+									<div class="banner-slide slide1 slide-active">
+										<img src="img/04.jpg" width="510px">
+									</div>
+
+									<div class="banner-slide slide1 slide-active">
+										<img src="img/05.jpg" width="510px">
+									</div>
+								</div>
+								<!-- 数字 -->
+								<div class="dots">
+									<ul id="dots">
+										<li class="li1"></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+									</ul>
+								</div>
+								<!-- 按钮 -->
+								<div id="left-right">
+									<div class="move" id="prev">&lt;</div>
+							        <div class="move" id="next">&gt;</div>
+							    </div>
+							</div>
+
+							<script>
+								var main = document.querySelector('#main');
+								var pics = document.querySelector('#banner').querySelectorAll('div');
+								var dots = document.querySelector('#dots').querySelectorAll('li');
+								var banner = document.querySelector('#banner');
+								var prev = document.querySelector('#prev');
+								var next = document.querySelector('#next');
+								var len = pics.length;
+								var index = 0;
+								var timer = null;
+								
+								function solide() {
+									// 鼠标移动到main区域停止计时器
+									main.onmouseover = function() {
+										if (timer) {
+											clearInterval(timer);
+										}
+									}
+									banner.onmouseout = function() {
+										// 鼠标离开main区域开启计时器
+										timer = setInterval(function() {
+											index++;
+											if (index >= len) {
+												index = 0;
+											}
+											changImg();
+										}, 2000);
+									}
+									banner.onmouseout();
+									// 圆点切换
+									for (var j = 0; j < len; j++) {
+										dots[j].index = j;
+										dots[j].onmouseover = function() {
+											index = this.index;
+											changImg();
+										}
+									}
+								
+									// 左键切换
+									prev.onclick = function() {
+										index--;
+										if (index < 0) {
+											index = len - 1;
+										}
+										changImg();
+									}
+									// 右键切换
+									next.onclick = function() {
+										index++;
+										if (index >= len) {
+											index = 0;
+										}
+										changImg();
+									}
+								}
+								solide();
+								/*图片自动切换*/
+								function changImg() {
+									for (var i = 0; i < len; i++) {
+										pics[i].style.display = 'none';
+										dots[i].className = "";
+									}
+									pics[index].style.display = 'block';
+									dots[index].className = 'li1';
+								}
+							</script>
+						</div>
+					</div>
+					<div class="bgdAllTwoRight">
+						<a>
+							<h2>品牌专区</h2>
+						</a><br>
+						<a href=""><img src="img/all-1.png" style="border-left: none;"></a>
+						<a href=""><img src="img/all-2.png"></a>
+						<a href=""><img src="img/all-3.png"></a>
+						<a href=""><img src="img/all-4.png" style="border-right: none;"></a>
+						<a href=""><img src="img/all-5.png" style="border-left: none;"></a>
+						<a href=""><img src="img/all-6.png"></a>
+						<a href=""><img src="img/all-7.png"></a>
+						<a href=""><img src="img/all-8.png" style="border-right: none;"></a>
+					</div>
+				</div>
+				<div class="bgdAllThree">
+					<a>
+						<h2>热门推荐</h2>
+					</a>
+					<div id="filp">
+						<ul>
+							<li>
+								<a href="">
+									<div>
+										<img alt="" src="img/foot-1.jpg" /><!-- width="218.08px" -->
+										<h3>专业微信小程序开发</h3>
+										<p>专业团队，免费售后</p>
+									</div>
+									<div>
+										<h3>专业微信小程序开发</h3>
+										<p>专业团队，免费售后</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div>
+										<img alt="" src="img/foot-2.jpg" />
+										<h3>专业微信小程序开发</h3>
+										<p>专业团队，免费售后</p>
+									</div>
+									<div>
+										<h3>专业微信小程序开发</h3>
+										<p>专业团队，免费售后</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div>
+										<img alt="" src="img/foot-3.jpg" />
+										<h3>专业微信小程序开发</h3>
+										<p>专业团队，免费售后</p>
+									</div>
+									<div>
+										<h3>专业微信小程序开发</h3>
+										<p>专业团队，免费售后</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div>
+										<img alt="" src="img/foot-4.jpg" />
+										<h3>专业微信小程序开发</h3>
+										<p>专业团队，免费售后</p>
+									</div>
+									<div>
+										<h3>专业微信小程序开发</h3>
+										<p>专业团队，免费售后</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div>
+										<img alt="" src="img/foot-5.jpg" />
+										<h3>专业微信小程序开发</h3>
+										<p>专业团队，免费售后</p>
+									</div>
+									<div>
+										<h3>专业微信小程序开发</h3>
+										<p>专业团队，免费售后</p>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</main>
+		<div class="mainFooter">
+			<div>
+				<img src="img/footer1.png">
+				<div>
+					<h3>专注企业服务14年</h3>
+					<p>服务2200万用户, 涵盖150+行业</p>
+				</div>
+			</div>
+			<div>
+				<img src="img/footer2.png">
+				<div>
+					<h3>资金安全</h3>
+					<p>交易资金托管平台，保障资金安全，确认完成再付款</p>
+				</div>
+			</div>
+			<div>
+				<img src="img/footer3.png">
+				<div>
+					<h3>商家实名</h3>
+					<p>服务商100%实名认证，官方把关，核实身份</p>
+				</div>
+			</div>
+			<div>
+				<img src="img/footer4.png">
+				<div>
+					<h3>全程监管</h3>
+					<p>交易过程中产生纠纷，官方100%介入</p>
+				</div>
+			</div>
+
+		</div>
+		<!-- 底部 -->
+		<footer>
+			<div class="footer">
+				<div class="footerTop">
+					<ul>
+						<li><a href="">关于我们</a></li>
+						<li><a href="">联系方式</a></li>
+						<li><a href="">公司资质</a></li>
+						<li><a href="">支付方式</a></li>
+						<li><a href="">猪八戒网移动版</a></li>
+						<li><a href="">交易纠纷调解室</a></li>
+						<li><a href="">八戒110举报中心</a></li>
+						<li><a href="">隐私保护政策</a></li>
+					</ul>
+				</div>
+				<div class="footerMain">
+					<p>Copyright 2005-2020 zbj.com 版权所有 渝ICP备10202274-4号 渝B2-20080005
+						渝公网安备 50019002500154号 猪八戒股份有限公司<br>
+						互联网违法和不良信息举报电话：023-88390110 邮箱：110@zbj.com 信用重庆 国家企业信用信息公示系统(重庆)</p>
+					<div>
+						<img src="img/码2.png" width="10%">
+						<img src="img/码1.png" width="10%">
+					</div>
+				</div>
+				<div class="footerDottom">
+					<img src="img/底1.png">
+					<img src="img/底2.png">
+					<img src="img/底3.png">
+					<img src="img/底4.png">
+					<img src="img/底5.png">
+					<img src="img/底6.png">
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

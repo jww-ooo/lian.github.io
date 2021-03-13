@@ -1,0 +1,924 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+	color: #000000;
+}
+
+body {
+	width: 100%;
+}
+
+header {
+	width: 100%;
+	margin: 0 auto;
+}
+
+main {
+	width: 100%;
+	/* background-image: url(../img/main背景.png);
+	background-size: 1800px;
+	background-repeat: no-repeat; */
+}
+
+nav {
+	width: 100%;
+	border-bottom: 2px solid #FF5C00;
+}
+
+/* 头部 */
+.headerTop {
+	width: 100%;
+	background-color: #ececec;
+	border: 0.5px solid #efefef;
+	margin-top: -3.7px;
+}
+
+.headerTop div {
+	width: 1190px;
+	height: 36px;
+	margin: 0 auto;
+	line-height: 36px;
+}
+
+.headerTop div a {
+	color: #FF5C00;
+	float: left;
+}
+
+.headerTop div a span {
+	color: #bdbdbd;
+	font-size: 2px;
+}
+
+.headerTop div ul {
+	float: right;
+}
+
+.headerTop div ul li {
+	float: left;
+	margin-left: 20px;
+}
+
+.headerTop div ul li:hover {
+	background-color: #BDBDBD;
+}
+
+.yiji {
+	display: inline-block;
+	position: relative;
+}
+
+.erji {
+	position: absolute;
+	top: 37px;
+	display: none;
+	background-color: white;
+	width: 100px;
+	padding: 10px;
+	line-height: 25px;
+	border: 1px solid #BDBDBD;
+	z-index: 99;
+}
+
+.yiji:hover .erji {
+	display: block;
+}
+
+.headerTop div ul li a {
+	font-family: "微软雅黑";
+	color: #7f7f7f;
+}
+
+.headerMain {
+	width: 100%;
+	height: 120px;
+	background-color: white;
+	z-index: 1;
+}
+
+.topFixing {
+	width: 1190px;
+	height: 120px;
+}
+
+.headerMain div a img {
+	float: left;
+	margin: 31px 100px 0 0;
+}
+
+.headerMain div div form {
+	float: left;
+	height: 60px;
+	margin-top: 70px;
+}
+
+.headerMain div div form input:first-child {
+	width: 400px;
+	height: 45px;
+	border: 2px solid #ff5c00;
+	padding-left: 20px;
+}
+
+.headerMain div div form input:last-child {
+	color: white;
+	width: 90px;
+	height: 50px;
+	border: 0px solid #ff5c00;
+	background-color: #ff5c00;
+	position: relative;
+	top: 1px;
+	left: -5px;
+}
+
+.headerButton {
+	float: right;
+	height: 60px;
+	margin-top: 105px;
+}
+
+.headerButton button {
+	width: 150px;
+	height: 46px;
+	border: none;
+	color: white;
+}
+
+.headerMain div div {
+	position: relative;
+	bottom: 31px;
+}
+
+/* 返回顶部 */
+#scrollup {
+	background: #777;
+	color: #eee;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: none;
+	bottom: 65px;
+	right: 20px;
+	overflow: hidden;
+	width: 46px;
+	height: 46px;
+	border: none;
+	opacity: .7;
+	
+	&:active {
+		opacity: .7;
+	}
+}
+
+/* nav列表 */
+.mainList {
+	width: 1190px;
+	height: 40px;
+	margin-top: 20px;
+	clear: both;
+}
+
+.mainListUl li,
+.mainListOl li {
+	float: left;
+	width: 8%;
+	margin: 0 5px;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	font-family: "黑体";
+}
+
+.mainListUl li a span,
+.mainListOl li a span {
+	font-size: 6px;
+	font-weight: 1000;
+}
+
+.mainListUl li a,
+.mainListUl li a span {
+	color: #FF5C00;
+}
+
+.mainListUl a:hover {
+		color: #FFFFFF;
+}
+
+.nHF {
+	display: inline-block;
+	position: relative;
+}
+
+.nHS {
+	display: none;
+	position: absolute;
+	top: -0px;
+	left: -2px;
+	background-color: #FFFFFF;
+	width: 100%;
+	padding-bottom: 5px;
+}
+
+.nHS li a {
+	color: #000000;
+}
+
+.nHS li:hover,
+.nHS li:hover a {
+	background-color: #e1e1e1;
+	color: #FF5C00;
+}
+
+.nHF ul li {
+	width: 90px;
+}
+
+.nHF:hover .nHS {
+	display: block;
+	border: 1px;
+}
+
+.nHF1 {
+	display: inline-block;
+	position: relative;
+}
+
+.nHS1 {
+	display: none;
+	position: absolute;
+	top: 41px;
+	left: -2px;
+	background-color: #FFFFFF;
+	width: 100%;
+	padding-bottom: 5px;
+}
+
+.nHF1:hover .nHS1 {
+	display: block;
+	border: 1px;
+}
+
+.nHS2 {
+	display: none;
+	position: absolute;
+	top: -0px;
+	left: -2px;
+	background-color: #FFFFFF;
+	width: 95.2px;
+}
+
+.nHF1:hover .nHS2 {
+	display: block;
+	border: 1px;
+}
+
+.nHS1 li a {
+	color: #000000;
+}
+
+.nHS1 li:hover,
+.nHS1 li:hover a {
+	background-color: #e1e1e1;
+	color: #FF5C00;
+}
+
+.nHF1 ul {
+	width: 200px;
+}
+
+.nHF1 ul li {
+	width: 90px;
+}
+
+/* 内容 */
+
+.bgd {
+	background-color: #ffe5cf;
+	width: 1180px;
+	margin-top: 15px;
+	padding: 10px;
+}
+
+.bgdAll {
+	margin-top: 30px;
+}
+
+
+.bgdTopText,
+.bgdTopText h2 {
+	display: inline;
+	color: #FF5C00;
+	margin: 0 0 0 150px;
+}
+
+.bgdLeft {
+	float: left;
+	width: 880px;
+	height: 1414px;
+}
+
+.bgdLeftOne {
+	width: 100%;
+	height: 125px;
+	background-color: #FFFFFF;
+	float: left;
+	padding-top: 15px;
+}
+
+.bgdLeftOne ul li img:hover {
+	position: relative;
+	top: -5px;
+}
+
+.bgdLeftOne ul li {
+	float: left;
+	text-align: center;
+}
+
+.bgdLeftOne ul li h4:hover,
+.bgdLeftOne ul li span:hover {
+	color: #FF5C00;
+}
+
+.bgdLeftTwo {
+	margin: 0;
+	width: 870px;
+	height: 70px;
+	text-align: center;
+	position: relative;
+	top: 10px;
+	clear: both;
+}
+
+.bgdLeftTwo a:hover {
+	opacity: 80%;
+}
+
+.bgdLeftMain {
+	width: 234px;
+	height: 1180px;
+	float: left;
+}
+
+.leftMain {
+	float: left;
+	margin-top: 20px;
+}
+
+.leftMainLeft {
+	width: 234px;
+	margin-bottom: 10px;
+	background-color: #FFFFFF;
+}
+
+.leftMainTop {
+	height: 50px;
+	line-height: 50px;
+	padding-right: 5px;
+	border-bottom: 1px solid #A9A9A9;
+}
+
+.leftMainTop>a:first-child {
+	border-left: 5px solid #FF5C00;
+}
+
+.leftMainTop h2 {
+	width: 90px;
+	color: #FF5C00;
+	display: inline;
+	margin-left: 10px;
+}
+
+.leftMainTop span {
+	font-size: 10px;
+	float: right;
+	color: #FF5C00;
+}
+
+.leftMainTop span:hover {
+	height: 35px;
+	border-bottom: 1px solid #FF5C00;
+}
+
+.leftMainFoot {
+	margin: 10px;
+	padding-bottom: 11px;
+}
+
+.leftMainFoot a {
+	color: #7F7F7F;
+	margin: 0 10px 0 0;
+}
+
+.leftMainFoot a span {
+	color: #FF5C00;
+}
+
+.leftMainFoot a:hover {
+	color: #FF5C00;
+	border-bottom: 1px solid #FF5C00;
+}
+
+.bgdCentralMain {
+	width: 302px;
+	height: 1180px;
+	position: relative;
+	right: 34px;
+}
+
+.centralMain {
+	margin-top: 20px;
+}
+
+.centMainCent {
+	width: 302px;
+	margin-bottom: 10px;
+	padding: 0 0 10px 0;
+	background-color: #FFFFFF;
+}
+
+.centMainFoot {
+	margin: 10px;
+}
+
+.centMainFoot a {
+	color: #7F7F7F;
+	margin: 0 10px 0 0;
+}
+
+.centMainFoot a span {
+	color: #FF5C00;
+}
+
+.centMainFoot a:hover {
+	color: #FF5C00;
+	border-bottom: 1px solid #FF5C00;
+}
+
+.centMainFoot dt {
+	display: inline-block;
+	float: left;
+}
+
+.centMainFoot dl dd {
+	width: 190px;
+	margin-left: 90px;
+}
+
+.bgdRightMain{
+	width: 302px;
+	height: 1180px;
+	float: right;
+	margin-top: -1176px;
+}
+.bgdRight {
+	float: right;
+}
+
+.bgdRightOne {
+	width: 290px;
+	height: 385px;
+	background-color: #FFFFFF;
+}
+.bgdRightOne div{
+	width: 90%;
+	text-align: center;
+	display: flex;
+}
+.bgdRightOne div img{
+	margin-top: 30px;
+}
+.bgdRightOne div div{
+	width: 67%;
+	margin-top: 40px;
+	display: block;
+}
+.bgdRightOne div div h3{
+	font-weight: 500;
+	float: left;
+}
+.bgdRightOne div div p{	
+	font-size: 15px;
+	color: #FF5C00;
+	float: left;
+	margin-top: 5px;
+}
+.bgdRightOne div div p:hover{
+	border-bottom:1px solid #FF5C00;
+}
+.bgdRightOneBtn button{
+	width: 30%;
+	height: 30px;
+	background-color: #FF5C00;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-weight: 600;
+	margin-top: 10px;
+}
+.bgdRightOneBtn button:hover{
+	opacity: 80%;
+}
+.bgdRightOne-fot{
+	background: linear-gradient(180deg,#f3fbf4,#e4f6e6 87%);
+}
+.bgdRightTwo {
+	width: 290px;
+	height: 670px;
+	margin-top: 10px;
+	background-color: #FFFFFF;
+}
+.bgdRightTwo .title{
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #A9A9A9;
+}
+.title span{
+	border-left: 5px solid #FF5C00;
+	position: relative;
+	top: -12px;
+}
+.title>img{
+	margin: 8px 0 0 10px;
+}
+.bRTMain{
+	margin-top: 10px;
+}
+.evenNumber{
+	width: 45%;
+	height: 114px;
+	float: left;
+	margin-left:10px;
+	margin-bottom: 10px;
+}
+.oddNumber{
+	width: 270px;
+	height: 65px;
+	clear: both;
+	margin: 0 0 10px 10px;
+}
+.bRTMain>a:hover{
+	opacity: 70%;
+}
+.bRTMain>a:hover h4{
+	color: #FF5C00;
+}
+.bRTMain>a:hover p{
+	color: #FF5C00;
+}
+.bRTText{
+	margin: 10px 0 0 10px;
+	position: absolute;
+}
+.bRTText>p{
+	font-size: 13px;
+	font-weight: 100;
+}
+
+.bgdAllTwo {
+	clear: both;
+	position: relative;
+	top: 20px;
+}
+
+.bgdAllTwoLeft {
+	width: 49.5%;
+	height: 267px;
+	float: left;
+	background-color: #FFFFFF;
+}
+
+.bgdAllTwoLeft div,
+.bgdAllTwoRight div {
+	height: 50px;
+	line-height: 50px;
+	padding-right: 5px;
+	border-bottom: 1px solid #A9A9A9;
+}
+
+.bgdAllTwoLeft>a:first-child,
+.bgdAllTwoRight>a:first-child,
+.bgdAllThree>a:first-child {
+	border-left: 5px solid #FF5C00;
+	position: relative;
+	top: 10px;
+}
+
+.bgdAllTwoLeft a h2,
+.bgdAllTwoRight a h2,
+.bgdAllThree a h2 {
+	display: inline;
+	height: 56px;
+	margin-left: 10px;
+}
+
+/* 轮播图 */
+#lunBo {
+	position: relative;
+	bottom: 100px;
+	box-shadow: 3px #232830;
+}
+#main {
+	margin-top: 125px;
+	width: 100.56%;
+	height: 212px;
+}
+
+.banner-slide,
+.banner-slide img {
+	width: 100.56%;
+	height: 212px;
+}
+
+/*数字*/
+
+#dots {
+	position: absolute;
+	top: 208px;
+}
+
+#dots>li {
+	width: 116px;
+	height: 5px;
+	margin-right: 1px;
+	float: left;
+	background-color: #f7f3ff;
+	cursor: pointer;
+	border-radius: 20%;
+}
+
+#dots>li:last-child {
+	margin-right: 0;
+}
+
+#dots .li1 {
+	background-color: #FF5C00;
+}
+
+/*按钮*/
+
+.move {
+	position: absolute;
+	width: 20px;
+	height: 30px;
+	line-height: 30px;
+	top: 200%;
+	margin-top: -15px;
+	background: rgba(0, 0, 0, .2);
+	text-decoration: none;
+	color: white;
+	display: none;
+	border-radius: 10px;
+	font-size: 30px;
+}
+#next{
+	text-align: right;
+	right: 0;
+}
+#main:hover .move{
+	display: block;
+}
+.move:hover{
+	color: orange;
+}
+
+
+.bgdAllTwoRight {
+	width: 49.5%;
+	height: 267px;
+	float: right;
+	background-color: #FFFFFF;
+}
+
+.bgdAllTwoRight a img {
+	position: relative;
+	left: 3px;
+	top: 25px;
+	width: 145.5px;
+	height: 105px;
+	margin: 0 -3px -5px -3px;
+	border: 1px solid #d4d6de;
+	border-bottom: none;
+	transition: all 0.6s;
+}
+
+.bgdAllTwoRight a img:hover {
+	transform: scale(1.07);
+}
+
+.bgdAllThree {
+	clear: both;
+	margin-top: 320px;
+	width: 100%;
+	height: 370px;
+	background-color: #FFFFFF;
+}
+
+/* 翻牌效果*/
+
+#filp ul li {
+	margin-top: 30px;
+	float: left;
+	text-align: center;
+}
+
+#filp ul li:first-child {
+	margin-left: 25px;
+}
+
+#filp ul li:last-child {
+	margin-right: 0;
+}
+
+#filp ul li a img {
+	width: 100%;
+}
+
+#filp ul li a div:first-child {
+	height: 281px;
+	border: 1px solid #000000;
+	color: #000000;
+	background-color: #ffffff;
+}
+
+#filp ul li a div:last-child {
+	height: 280px;
+	color: #000000;
+}
+
+#filp ul li {
+	width: 218.08px;
+	height: 180px;
+	margin-right: 10px;
+	float: left;
+}
+
+#filp ul li:last-child {
+	margin-right: 0;
+}
+
+#filp ul li a {
+	display: block;
+	height: 180px;
+	/*
+	设置元素被查看位置的视图：
+	perspective 属性定义 3D 元素距视图的距离，以像素计。该属性允许您改变 3D 元素查看 3D 元素的视图。
+	当为元素定义 perspective 属性时，其子元素会获得透视效果，而不是元素本身。
+	*/
+	-webkit-perspective: 500px;
+	-moz-perspective: 500px;
+	-ms-perspective: 500px;
+	perspective: 500px;
+
+	position: relative;
+}
+
+#filp ul li a>div {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 239px;
+	color: #fff;
+
+	/*
+	指定嵌套元素如何在3D空间中呈现。
+	*/
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+
+	/*
+	隐藏被旋转的 div 元素的背面
+	*/
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+
+	-webkit-transition: 0.8s ease-in-out;
+	-moz-transition: 0.8s ease-in-out;
+	-ms-transition: 0.8s ease-in-out;
+
+	position: absolute;
+}
+
+#filp ul li a div:first-child {
+	-webkit-transform: rotateY(0);
+	-moz-transform: rotateY(0);
+	-ms-transform: rotateY(0);
+	z-index: 2;
+}
+
+#filp ul li a:hover div:first-child {
+	-webkit-transform: rotateY(-180deg);
+	-moz-transform: rotateY(-180deg);
+	-ms-transform: rotateY(-180deg);
+}
+
+#filp ul li a div:last-child {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	z-index: 1;
+	background: url(../img/bg.jpg) no-repeat;
+}
+
+#filp ul li a:hover div:last-child {
+	-webkit-transform: rotateY(0);
+	-moz-transform: rotateY(0);
+	-ms-transform: rotateY(0);
+	z-index: 1;
+}
+#filp ul li a div:last-child h3{
+	margin:0 auto 15px;
+	padding:15px 0;
+	width:200px;
+	height:16px;
+	line-height:16px;
+	font-size: 14px;
+	text-align: center;
+	border-bottom:1px #fff dashed;
+}
+#filp ul li a div:last-child p{
+	padding:0 10px;
+	font-size: 12px;
+	text-indent: 2em;
+	line-height:18px;
+}
+.mainFooter {
+	width: 1180px;
+	height: 156px;
+	margin-top: 50px;
+}
+.mainFooter div{
+	width: 25%;
+	float: left;
+}
+.mainFooter div img{
+	width: 25%;
+	margin-top: 10px;
+	display: inline-block;
+}
+.mainFooter div div{
+	width: 70%;
+	float: right;
+	font-family: "黑体";
+	margin: 20px 0 0 0;
+}
+.mainFooter p{
+	font-size: 13px;
+}
+
+/* 底部 */
+.footer {
+	width: 100%;
+	background-color: #232830;
+}
+
+.footerTop {
+	border-bottom: 1px solid darkgray;
+}
+
+.footerTop ul {
+	width: 1190px;
+	height: 100px;
+	line-height: 100px;
+}
+
+.footerTop ul li {
+	float: left;
+	margin-left: 40px;
+}
+
+.footerTop ul li a {
+	color: white;
+	border-right: 1px solid darkgray;
+	padding-right: 20px;
+}
+
+.footerTop ul li:last-child a {
+	border: none;
+}
+
+.footerMain {
+	width: 1190px;
+	height: 100px;
+	padding-top: 15px;
+}
+
+.footerMain p {
+	float: left;
+	width: 800px;
+	color: white;
+	font-size: 5px;
+}
+
+.footerMain div img {
+	margin-left: 20px;
+	float: right;
+}
+
+.footerDottom {
+	width: 1190px;
+	position: relative;
+	top: -20px;
+}
